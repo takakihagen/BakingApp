@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="@dimen/widget_margin">
+    <TextView
+        android:id="@+id/appwidget_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="8dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorCardBackground"
+        android:contentDescription="@string/ingredient_title"
+        android:text="@string/ingredient_title"
+        android:textColor="@color/recipe_title"
+        android:textSize="20sp"/>
+
+</RelativeLayout>
